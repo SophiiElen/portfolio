@@ -1,19 +1,14 @@
-```
+# Portfólio  
+Olá, Bem-vindo ao meu projeto de portfólio.  
 
-# Portfólio Olá, Bem vindo ao meu projeto de portfólio.
+## Ferramentas utilizadas:  
 
-## Ferramentas utilizadas:
+* HTML  
+* CSS  
+* Flexbox  
 
-* HTML
+## Feito por:  
 
-* CSS
+### Sophia Elen  
 
-* Flex-box
-
-## Feito por:
-
-### Sophia Elen
-
-### Linkedin: https://www.linkedin.com/in/sophia-elen-marins/
-
-```
+[LinkedIn](https://www.linkedin.com/in/sophia-elen-marins/)  

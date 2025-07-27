@@ -5,23 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            <a class="cabecalho__menu__link" href="curriculo.html">Currículo</a>
+        </nav>
+    </header>
+
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo">Transformando Ideias em <strong class="titulo-destaque">Soluções Tecnológicas</strong></h1>
             <p class="apresentacao__conteudo__texto">Sou Sophia Elen! <strong>Busco aprimorar minhas habilidades</strong> em programação e 
-                desenvolvimento de sistemas, além de me preparar para cursar Engenharia de Software.
+                desenvolvimento de sistemas, além de me preparar para cursar Engenharia de Software ou Ciência da Computação.
                 Curiosa e dedicada, estou sempre em busca de novos desafios que me ajudem a crescer e criar soluções inovadoras.
                  Quer saber mais sobre o que estou fazendo? Confira minhas redes!</p>
             <div class="apresentacao__links">
-            <a class="apresentacao__links__link" href="https://github.com/SophiiElen/">Github</a>
-            <a class="apresentacao__links__link" href="https://www.linkedin.com/in/sophia-elen-marins">Linkedin</a>
+            <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+            <a class="apresentacao__links__navegacao" href="https://github.com/SophiiElen/">
+                <img src="./assets/github.png" id="github-img" width="25px">
+                Github</a>
+            <a class="apresentacao__links__navegacao" href="https://www.linkedin.com/in/sophia-elen-marins">
+                <img src="./assets/linkedin.png" id="linkedin-img" width="30px">
+                Linkedin</a>
             </div> 
         </section>
-           <img src="imagem.jpg" alt="Sophia Elen" width="300" height="450">
+           <img class="apresentacao__imagem" src="./assets/image.png" alt="Sophia Elen">
     </main>
-    <footer></footer>
+
+    <footer class="rodape">
+        <p>Desenvolvido por Sophia Elen</p>
+    </footer>
 </body>
 </html>
